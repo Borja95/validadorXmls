@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+   <div class="mt-10">
+       <button class="btn btn-primary" onclick="document.getElementById('inputSubirArchivo').click()">Subir XML(s)</button>
+       <input type="file" multiple id="inputSubirArchivo" onchange="mostrarTabla()"/>
+       <br /><br />
+
+       <div id="divTablaArchivos"></div>
+
+       <div id="btnComprobar" class="container-btn-comprobar">
+           <button class="btn btn-success btn-comprobar" onclick="enviarXML()">Validar CFDI(s)</button>
+       </div>
+   </div>
+</div>

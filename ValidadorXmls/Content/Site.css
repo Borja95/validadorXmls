@@ -1,0 +1,60 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.estatus-vigente {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.estatus-cancelado {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.container-btn-comprobar {
+    display: none;
+    text-align: center;
+}
+
+.btn-comprobar {
+    font-weight: bold;
+    background-color: green;
+}
+
+#inputSubirArchivo {
+    display: none;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.fila-loader {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
